@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  background-color: #eee;
+}
+
+.info {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 16px;
+  right: 24px;
+}
+
+.card {
+  position: relative;
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.name_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+}
+
+.name {
+  color: #081f32;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.24px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  background-color: #f8593b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow {
+  background-color: #ffc22b;
+}
+
+.green {
+  background-color: #2ecc71;
+}
+
+.small_text {
+  text-align: left;
+  color: #6e798c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.describtion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+}
+
+.describtion > p {
+  color: #a5adbb;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 33px;
+}
+
+.order_text {
+  display: flex;
+  gap: 8px;
+}
+
+.new_price {
+  color: #081f32;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.old_price {
+  color: #f8593b;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-decoration: line-through;
+}
+
+button {
+  border-radius: 4px;
+  background: #2ecc71;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2.52px;
+  width: 114px;
+  height: 44px;
+  border: none;
+}
